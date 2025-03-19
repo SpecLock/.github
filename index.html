@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specifications Locked</title>
+    <style>
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+
+/*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
+*,
+:after,
+:before {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+}
+:after,
+:before {
+  --tw-content: "";
+}
+:host,
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family:
+    Open Sans,
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  -moz-tab-size: 4;
+  tab-size: 4;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  line-height: inherit;
+  margin: 0;
+}
+hr {
+  border-top-width: 1px;
+  color: inherit;
+  height: 0;
+}
+abbr:where([title]) {
+  text-decoration: underline dotted;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    Liberation Mono,
+    Courier New,
+    monospace;
+  font-feature-settings: normal;
+  font-size: 1em;
+  font-variation-settings: normal;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+table {
+  border-collapse: collapse;
+  border-color: inherit;
+  text-indent: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-size: 100%;
+  font-variation-settings: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input:where([type="button"]),
+input:where([type="reset"]),
+input:where([type="submit"]) {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+:-moz-focusring {
+  outline: auto;
+}
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+progress {
+  vertical-align: baseline;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+summary {
+  display: list-item;
+}
+blockquote,
+dd,
+dl,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0;
+}
+fieldset {
+  margin: 0;
+}
+fieldset,
+legend {
+  padding: 0;
+}
+menu,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+dialog {
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+[role="button"],
+button {
+  cursor: pointer;
+}
+:disabled {
+  cursor: default;
+}
+audio,
+canvas,
+embed,
+iframe,
+img,
+object,
+svg,
+video {
+  display: block;
+  vertical-align: middle;
+}
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+[hidden] {
+  display: none;
+}
+*,
+:after,
+:before {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+  --tw-contain-size: ;
+  --tw-contain-layout: ;
+  --tw-contain-paint: ;
+  --tw-contain-style: ;
+}
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position: ;
+  --tw-gradient-via-position: ;
+  --tw-gradient-to-position: ;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+  --tw-contain-size: ;
+  --tw-contain-layout: ;
+  --tw-contain-paint: ;
+  --tw-contain-style: ;
+}
+#webcrumbs .col-span-2 {
+  grid-column: span 2 / span 2;
+}
+#webcrumbs .mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+#webcrumbs .mb-2 {
+  margin-bottom: 8px;
+}
+#webcrumbs .mb-4 {
+  margin-bottom: 16px;
+}
+#webcrumbs .mb-6 {
+  margin-bottom: 24px;
+}
+#webcrumbs .mb-8 {
+  margin-bottom: 32px;
+}
+#webcrumbs .ml-1 {
+  margin-left: 4px;
+}
+#webcrumbs .ml-2 {
+  margin-left: 8px;
+}
+#webcrumbs .mt-12 {
+  margin-top: 48px;
+}
+#webcrumbs .inline-block {
+  display: inline-block;
+}
+#webcrumbs .flex {
+  display: flex;
+}
+#webcrumbs .grid {
+  display: grid;
+}
+#webcrumbs .h-4 {
+  height: 16px;
+}
+#webcrumbs .w-4 {
+  width: 16px;
+}
+#webcrumbs .w-\[1200px\] {
+  width: 1200px;
+}
+#webcrumbs .max-w-4xl {
+  max-width: 56rem;
+}
+#webcrumbs .transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+#webcrumbs .animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+#webcrumbs .grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+#webcrumbs .grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+#webcrumbs .flex-row {
+  flex-direction: row;
+}
+#webcrumbs .items-center {
+  align-items: center;
+}
+#webcrumbs .justify-between {
+  justify-content: space-between;
+}
+#webcrumbs .gap-4 {
+  gap: 16px;
+}
+#webcrumbs .gap-6 {
+  gap: 24px;
+}
+#webcrumbs .gap-8 {
+  gap: 32px;
+}
+#webcrumbs .rounded-full {
+  border-radius: 9999px;
+}
+#webcrumbs .rounded-lg {
+  border-radius: 24px;
+}
+#webcrumbs .rounded-b-lg {
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+#webcrumbs .rounded-t-lg {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+#webcrumbs .border {
+  border-width: 1px;
+}
+#webcrumbs .border-b-2 {
+  border-bottom-width: 2px;
+}
+#webcrumbs .border-indigo-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(224 231 255 / var(--tw-border-opacity));
+}
+#webcrumbs .border-indigo-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(99 102 241 / var(--tw-border-opacity));
+}
+#webcrumbs .bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+#webcrumbs .bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+#webcrumbs .bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+#webcrumbs .bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+#webcrumbs .bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+#webcrumbs .from-gray-50 {
+  --tw-gradient-from: #f9fafb var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(249, 250, 251, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+#webcrumbs .from-indigo-50 {
+  --tw-gradient-from: #eef2ff var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(238, 242, 255, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+#webcrumbs .from-indigo-600 {
+  --tw-gradient-from: #4f46e5 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgba(79, 70, 229, 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+#webcrumbs .to-indigo-50 {
+  --tw-gradient-to: #eef2ff var(--tw-gradient-to-position);
+}
+#webcrumbs .to-purple-50 {
+  --tw-gradient-to: #faf5ff var(--tw-gradient-to-position);
+}
+#webcrumbs .to-purple-700 {
+  --tw-gradient-to: #7e22ce var(--tw-gradient-to-position);
+}
+#webcrumbs .p-4 {
+  padding: 16px;
+}
+#webcrumbs .p-6 {
+  padding: 24px;
+}
+#webcrumbs .px-6 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+#webcrumbs .px-8 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+#webcrumbs .py-12 {
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+#webcrumbs .py-16 {
+  padding-bottom: 64px;
+  padding-top: 64px;
+}
+#webcrumbs .py-3 {
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+#webcrumbs .pb-2 {
+  padding-bottom: 8px;
+}
+#webcrumbs .text-center {
+  text-align: center;
+}
+#webcrumbs .font-sans {
+  font-family:
+    Open Sans,
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+}
+#webcrumbs .text-3xl {
+  font-size: 30px;
+  line-height: 36px;
+}
+#webcrumbs .text-4xl {
+  font-size: 36px;
+  line-height: 41.4px;
+}
+#webcrumbs .text-lg {
+  font-size: 18px;
+  line-height: 27px;
+}
+#webcrumbs .text-xl {
+  font-size: 20px;
+  line-height: 28px;
+}
+#webcrumbs .font-bold {
+  font-weight: 700;
+}
+#webcrumbs .font-medium {
+  font-weight: 500;
+}
+#webcrumbs .font-semibold {
+  font-weight: 600;
+}
+#webcrumbs .leading-relaxed {
+  line-height: 1.625;
+}
+#webcrumbs .text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+#webcrumbs .text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+#webcrumbs .text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+#webcrumbs .text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+#webcrumbs .text-indigo-600 {
+  --tw-text-opacity: 1;
+  color: rgb(79 70 229 / var(--tw-text-opacity));
+}
+#webcrumbs .text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+#webcrumbs .opacity-90 {
+  opacity: 0.9;
+}
+#webcrumbs .shadow-inner {
+  --tw-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
+}
+#webcrumbs .shadow-inner,
+#webcrumbs .shadow-lg {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+#webcrumbs .shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+    0 4px 6px -4px var(--tw-shadow-color);
+}
+#webcrumbs .shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+#webcrumbs .transition-all {
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+#webcrumbs .transition-colors {
+  transition-duration: 0.15s;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+#webcrumbs .transition-opacity {
+  transition-duration: 0.15s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+#webcrumbs .transition-shadow {
+  transition-duration: 0.15s;
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+#webcrumbs .transition-transform {
+  transition-duration: 0.15s;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+#webcrumbs .duration-300 {
+  transition-duration: 0.3s;
+}
+#webcrumbs {
+  font-family: Open Sans !important;
+  font-size: 16px !important;
+}
+#webcrumbs .hover\:-translate-y-1:hover {
+  --tw-translate-y: -4px;
+}
+#webcrumbs .hover\:-translate-y-1:hover,
+#webcrumbs .hover\:scale-\[1\.02\]:hover {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+#webcrumbs .hover\:scale-\[1\.02\]:hover {
+  --tw-scale-x: 1.02;
+  --tw-scale-y: 1.02;
+}
+#webcrumbs .hover\:border-indigo-300:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(165 180 252 / var(--tw-border-opacity));
+}
+#webcrumbs .hover\:bg-gray-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+#webcrumbs .hover\:text-indigo-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(55 48 163 / var(--tw-text-opacity));
+}
+#webcrumbs .hover\:opacity-100:hover {
+  opacity: 1;
+}
+#webcrumbs .hover\:shadow-xl:hover {
+  --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),
+    0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+#webcrumbs :is(.group:hover .group-hover\:translate-x-1) {
+  --tw-translate-x: 4px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+#webcrumbs :is(.group:hover .group-hover\:scale-110) {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@media (min-width: 768px) {
+  #webcrumbs .md\:col-span-4 {
+    grid-column: span 4 / span 4;
+  }
+  #webcrumbs .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #webcrumbs .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+      body {
+        line-height: inherit;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        min-width: 100vw;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(135deg, #ffffff, #d4d4d4);
+      }
+    </style>
+  </head>
+  <body>
+<div id="webcrumbs"><div class="w-[1200px] bg-white font-sans"> <header class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-16 px-8 rounded-b-lg shadow-lg"> <div class="max-w-4xl mx-auto"> <h1 class="text-4xl font-bold mb-4 flex items-center transform hover:scale-[1.02] transition-transform"> Specifications Locked <span class="ml-2 animate-pulse">🚀</span> </h1> <p class="text-xl font-medium opacity-90 mb-6 hover:opacity-100 transition-opacity">Building Sustainable Web3 Solutions</p> <button class="bg-white text-indigo-600 font-bold py-3 px-6 rounded-full shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"> Join Our Community </button>  </div> </header> <section class="py-16 px-8"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold mb-6 text-gray-800 border-b-2 border-indigo-500 pb-2 inline-block">About Us</h2> <p class="text-lg text-gray-700 mb-6 leading-relaxed"> Specifications Locked is an open-source, for-profit Web3 organization dedicated to developing innovative and sustainable decentralized applications (DApps) and blockchain projects. Our name reflects the core principle of blockchain immutability—once something is recorded, it remains permanently secured and unchangeable. </p> <p class="text-lg text-gray-700 mb-6 leading-relaxed"> We bridge the gap between open-source transparency and profitable, scalable solutions, ensuring long-term viability in the evolving Web3 ecosystem. </p>  </div> </section> <section class="py-12 px-8 bg-gradient-to-br from-gray-50 to-indigo-50 rounded-lg shadow-inner"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold mb-8 text-gray-800 text-center">Our Mission</h2> <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"> <div class="text-3xl mb-4 text-indigo-600">🌍</div> <h3 class="text-xl font-semibold mb-2 text-gray-800">Sustainable Solutions</h3> <p class="text-gray-600">Create sustainable and decentralized solutions that stand the test of time.</p> </div> <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"> <div class="text-3xl mb-4 text-indigo-600">🔒</div> <h3 class="text-xl font-semibold mb-2 text-gray-800">Security &amp; Transparency</h3> <p class="text-gray-600">Ensure immutability, security, and transparency in all projects.</p> </div> <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"> <div class="text-3xl mb-4 text-indigo-600">⚡</div> <h3 class="text-xl font-semibold mb-2 text-gray-800">Blockchain Innovation</h3> <p class="text-gray-600">Innovate in blockchain, smart contracts, and decentralized applications.</p> </div> <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"> <div class="text-3xl mb-4 text-indigo-600">🤝</div> <h3 class="text-xl font-semibold mb-2 text-gray-800">Collaborative Development</h3> <p class="text-gray-600">Foster an open-source and collaborative development environment.</p> </div> </div>  </div> </section> <section class="py-16 px-8"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold mb-8 text-gray-800 text-center">Get Involved</h2> <p class="text-lg text-gray-700 mb-8 text-center"> We are always looking for contributors, developers, and visionaries to help build the future of Web3. Here&#x27;s how you can join us: </p> <div class="grid grid-cols-1 md:grid-cols-2 gap-8"> <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-lg border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 group"> <div class="text-3xl mb-4 text-indigo-600 group-hover:scale-110 transform transition-transform">⭐</div> <h3 class="text-xl font-semibold mb-2 text-gray-800">Fork &amp; Star</h3> <p class="text-gray-600 mb-4">Star this repository to show support and keep track of our progress.</p> <button class="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors flex items-center"> Star on GitHub <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path> </svg> </button> </div> <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-lg border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 group"> <div class="text-3xl mb-4 text-indigo-600 group-hover:scale-110 transform transition-transform">🚀</div> <h3 class="text-xl font-semibold mb-2 text-gray-800">Explore Our Projects</h3> <p class="text-gray-600 mb-4">Check out our ongoing initiatives in the repositories.</p> <button class="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors flex items-center"> Browse Projects <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path> </svg> </button> </div> <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-lg border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 group"> <div class="text-3xl mb-4 text-indigo-600 group-hover:scale-110 transform transition-transform">🛠️</div> <h3 class="text-xl font-semibold mb-2 text-gray-800">Contribute</h3> <p class="text-gray-600 mb-4">Open an issue, submit a pull request, or discuss new ideas.</p> <button class="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors flex items-center"> Start Contributing <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path> </svg> </button> </div> <div class="bg-gradient-to-br from-indigo-50 to-purple-50 p-6 rounded-lg border border-indigo-100 hover:border-indigo-300 transition-colors duration-300 group"> <div class="text-3xl mb-4 text-indigo-600 group-hover:scale-110 transform transition-transform">🤝</div> <h3 class="text-xl font-semibold mb-2 text-gray-800">Join the Community</h3> <p class="text-gray-600 mb-4">Connect with us on Discord, Twitter, and other social platforms.</p> <button class="text-indigo-600 font-semibold hover:text-indigo-800 transition-colors flex items-center"> Connect with Us <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path> </svg> </button> </div> </div>  </div> </section> <section class="py-12 px-8 bg-gray-800 text-white rounded-t-lg"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold mb-8 text-center">Tech Stack</h2> <div class="grid grid-cols-2 md:grid-cols-4 gap-6"> <div class="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition-colors"> <h3 class="text-lg font-semibold mb-2">Blockchain</h3> <p class="text-gray-300">Avalanche</p> </div> <div class="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition-colors"> <h3 class="text-lg font-semibold mb-2">Smart Contracts</h3> <p class="text-gray-300">Solidity</p> </div> <div class="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition-colors"> <h3 class="text-lg font-semibold mb-2">Backend</h3> <p class="text-gray-300">Node.js, Python, Go</p> </div> <div class="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition-colors"> <h3 class="text-lg font-semibold mb-2">Frontend</h3> <p class="text-gray-300">React, Next.js</p> </div> <div class="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition-colors col-span-2 md:col-span-4"> <h3 class="text-lg font-semibold mb-2">Infrastructure</h3> <p class="text-gray-300">IPFS, The Graph</p> </div> </div> <div class="mt-12 text-center"> <h3 class="text-xl font-semibold mb-2">License</h3> <p class="text-gray-300"> All our open-source projects are released under the MIT License, unless stated otherwise. </p>  </div> </div> </section> </div></div>
+
+
+  </body>
+</html>
