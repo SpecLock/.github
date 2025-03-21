@@ -31,12 +31,6 @@ We are always looking for contributors, developers, and visionaries to help buil
 ## License
 All our open-source projects are released under the **MIT License**, unless stated otherwise.
 
-## Connect With Us
-- 🌐 Website: [Coming Soon]
-- 🐦 Twitter: [Coming Soon]
-- 💬 Discord: [Coming Soon]
-- 📧 Email: [Coming Soon]
-
 ---
 
 **Specifications Locked** - *Once recorded, forever secured.* 🔐
